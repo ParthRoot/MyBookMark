@@ -1,0 +1,20 @@
+button {
+    cursor: pointer;
+    color: white;
+    background: var(--primary-color);
+    border: none;
+    height: 40px;
+    width: 100px;
+    border-radius: var(--border-radius);
+    margin-top: 10px;
+    padding: 50px;
+    cursor: pointer;
+}
+
+button:hover {
+    filter: brightness(110%);
+}
+
+button:focus {
+    outline: none;
+}
